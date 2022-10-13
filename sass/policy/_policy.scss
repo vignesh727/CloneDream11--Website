@@ -1,0 +1,27 @@
+.policy {
+    background-color: rgb(31, 28, 28);
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+
+        li {
+            padding: 20px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            span {
+                color: white;
+            }
+        }
+    }
+}
+
+.footer {
+    text-align: center;
+}

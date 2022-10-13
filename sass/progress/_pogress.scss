@@ -1,0 +1,45 @@
+.progress-barr {
+  display: flex;
+  margin-top: -50px;
+
+  &__one {
+    width: 50%;
+    height: 60px;
+    background-color: rgba(10, 9, 9, 0.87);
+    border-right: 45px solid rgba(26, 17, 17, 0.808);
+    border-bottom: 60px solid transparent;
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+
+  &__two {
+    width: 50%;
+    height: 60px;
+    background-color: rgba(26, 17, 17, 0.979);
+    font-size: 10px;
+  }
+
+  &__one--left {
+    float: right;
+    color: $text-color;
+    line-height: 3px;
+    margin-top: 7px;
+    text-align: center;
+    margin-right: 60px;
+  }
+
+  &__one--right {
+    float: left;
+    color: $text-color;
+    margin-top: 6px;
+    margin-left: 70px;
+    line-height: 3px;
+    text-align: center;
+  }
+
+  #brand-name__size {
+    font-size: 25px;
+  }
+}
+
+/*!progress bar finished*/

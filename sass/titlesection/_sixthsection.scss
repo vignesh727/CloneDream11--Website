@@ -1,0 +1,53 @@
+.title-win {
+  text-align: center;
+  padding: 30px 10px 10px 30px;
+
+  p {
+    font-weight: bold;
+    font-size: 22px;
+
+    span {
+      color: red;
+    }
+  }
+}
+
+.bio {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+  &-image {
+    #img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &-content {
+    margin-left: -30px;
+
+    &__inline {
+      display: flex;
+
+      p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: rgb(99, 99, 99);
+      }
+
+      div {
+        padding-left: 20px;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  #scan-para {
+    line-height: 10px;
+    margin-top: 20px;
+  }
+}
+
+/*!Third section Finished*/
